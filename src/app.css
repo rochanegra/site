@@ -1,0 +1,11 @@
+@tailwind base;
+@layer base{
+    @font-face {
+        font-family: "Agency FB";
+        font-weight: bold;
+        font-display: swap;
+        src: url("/fonts/agency-fb-bold.woff2") format("woff2");
+    }
+}
+@tailwind components;
+@tailwind utilities;
