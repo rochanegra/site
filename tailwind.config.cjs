@@ -22,7 +22,7 @@ module.exports = {
         '2xl': '96rem'
       },
       fontFamily: {
-        'agencyfb': "Agency FB",
+        'agencyfb': "Agency FB"
       },
     },
   },
