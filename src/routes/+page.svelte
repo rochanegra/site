@@ -43,7 +43,7 @@
     <link rel="preload" href="/fonts/agency-fb-bold.woff2" as="font" type="font/woff2" crossorigin>
 </svelte:head>
 
-<main class="w-screen bg-[#77C1FF]/10">
+<main class="w-screen h-screen bg-[#77C1FF]/10">
     <div class="container flex flex-col lg:flex-row lg:h-screen justify-center items-center m-auto px-8 gap-5 lg:gap-0">
         <img src="/logo-150anos.webp" alt="" class="w-full xs:w-[80%] sm:w-[60%] max-w-[22rem] lg:max-w-max lg:w-[40%]">
         <div class="flex flex-col items-center gap-10">
