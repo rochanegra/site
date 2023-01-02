@@ -7,7 +7,7 @@
     onMount(async function () {
         if (browser) {
             // Set the date we're counting down to
-            var countDownDate = new Date("Jul 29, 2023 00:00:00").getTime();
+            var countDownDate = new Date("Jun 29, 2023 00:00:00").getTime();
 
             // Update the count down every 1 second
             var x = setInterval(function() {
@@ -49,7 +49,7 @@
         <div class="flex flex-col items-center gap-10">
             <div class="flex flex-col items-center gap-5 text-center">
                 <h1 class="font-agencyfb text-[#CB9727] text-3xl">Contagem regressiva para o sesquicentenário:</h1>
-                <p id="countdown" class="font-agencyfb text-black/50 text-4xl lg:text-5xl w-max"></p>
+                <p id="countdown" class="font-arial text-black/50 text-4xl lg:text-4xl w-max"></p>
             </div>
             <form action="https://formsubmit.co/ronymarcon@gmail.com" method="POST" class="flex flex-col lg:flex-row gap-5 lg:gap-2">
                 <div class="flex flex-col gap-2 w-max">
