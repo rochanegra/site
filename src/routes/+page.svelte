@@ -40,7 +40,7 @@
 
 <svelte:head>
     <title>Rocha Negra Nº 1 - 150 anos</title>
-    <link rel="preload" href="/fonts/agency-fb-bold.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="/fonts/agency-fb-bold.woff2" as="font" type="font/woff2" crossorigin>
 </svelte:head>
 
 <main class="container flex flex-col lg:flex-row h-max justify-center items-center mx-auto px-8 gap-5 lg:gap-0 py-5">
