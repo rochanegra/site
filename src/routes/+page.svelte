@@ -40,25 +40,23 @@
 
 <svelte:head>
     <title>Rocha Negra Nº 1 - 150 anos</title>
-    <link rel="preload" href="/fonts/agency-fb-bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/agency-fb-bold.woff2" as="font" type="font/woff2">
 </svelte:head>
 
-<main class="w-screen h-screen bg-[#77C1FF]/10">
-    <div class="container flex flex-col lg:flex-row lg:h-screen justify-center items-center m-auto px-8 gap-5 lg:gap-0">
-        <img src="/logo-150anos.webp" alt="" class="w-full xs:w-[80%] sm:w-[60%] max-w-[22rem] lg:max-w-max lg:w-[40%]">
-        <div class="flex flex-col items-center gap-10">
-            <div class="flex flex-col items-center gap-5 text-center">
-                <h1 class="font-agencyfb text-[#CB9727] text-3xl">Contagem regressiva para o sesquicentenário:</h1>
-                <p id="countdown" class="font-arial text-black/50 text-4xl lg:text-4xl w-max"></p>
-            </div>
-            <form action="https://formsubmit.co/ronymarcon@gmail.com" method="POST" class="flex flex-col lg:flex-row gap-5 lg:gap-2">
-                <div class="flex flex-col gap-2 w-max">
-                    <input type="text" name="nome" id="" placeholder="Nome" class="p-[0.8rem] px-6 rounded-lg">
-                    <input type="tel" name="telefone" id="" placeholder="Telefone" class="p-[0.8rem] px-6 rounded-lg">
-                </div>
-                <input type="submit" class="p-[1rem] px-8 rounded-lg bg-[#CB9727] text-white cursor-pointer">
-                <input type="hidden" name="_template" value="table">
-            </form>
+<main class="container flex flex-col lg:flex-row h-max justify-center items-center mx-auto px-8 gap-5 lg:gap-0 py-5">
+    <img src="/logo-150anos.webp" alt="" class="w-full xs:w-[80%] sm:w-[60%] max-w-[17rem] lg:max-w-max lg:w-[40%]">
+    <div class="flex flex-col items-center gap-10">
+        <div class="flex flex-col items-center gap-5 text-center">
+            <h1 class="font-agencyfb text-[#CB9727] text-3xl">Contagem regressiva para o sesquicentenário:</h1>
+            <p id="countdown" class="font-arial text-black/50 text-4xl w-max"></p>
         </div>
+        <form action="https://formsubmit.co/ronymarcon@gmail.com" method="POST" class="flex flex-col lg:flex-row gap-5 lg:gap-2">
+            <div class="flex flex-col gap-2 w-max">
+                <input type="text" name="nome" id="" placeholder="Nome" class="p-[0.8rem] px-6 rounded-lg">
+                <input type="tel" name="telefone" id="" placeholder="Telefone" class="p-[0.8rem] px-6 rounded-lg">
+            </div>
+            <input type="submit" class="p-[1rem] px-8 rounded-lg bg-[#CB9727] text-white cursor-pointer">
+            <input type="hidden" name="_template" value="table">
+        </form>
     </div>
 </main>

@@ -6,6 +6,11 @@
         font-display: swap;
         src: url("/fonts/agency-fb-bold.woff2") format("woff2");
     }
+    @font-face {
+        font-family: "Trajan Pro";
+        font-display: swap;
+        src: url("/fonts/trajan-pro-3-2.woff2") format("woff2");
+    }
 }
 @tailwind components;
 @tailwind utilities;

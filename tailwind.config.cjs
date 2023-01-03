@@ -23,6 +23,7 @@ module.exports = {
       },
       fontFamily: {
         'agencyfb': "Agency FB",
+        'trajanpro': "Trajan Pro",
         'arial': "Arial"
       },
     },
